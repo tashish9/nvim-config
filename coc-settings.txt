@@ -1,0 +1,12 @@
+--------- Use it when working with godot , paste it to coc-settings.json. Gives weird suggestions outside of lsp in other languages , which on pressing enter takes you to next line , weird thing -------
+
+{
+  "nodePath": "C:/Program Files/nodejs/node.exe",
+  "languageserver": {
+    "godot": {
+      "host": "127.0.0.1",
+      "filetypes": ["gdscript"],
+      "port": 6005
+    }
+  }
+}
