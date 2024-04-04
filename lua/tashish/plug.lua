@@ -31,7 +31,7 @@ vim.cmd [[
     Plug 'jiangmiao/auto-pairs'
     Plug 'habamax/vim-godot'
     Plug 'klen/nvim-config-local'
-    " Plug 'ThePrimeagen/harpoon' , {'branch' : 'harpoon2' }
+    Plug 'ThePrimeagen/harpoon' , {'branch' : 'harpoon2' }
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     call plug#end()
 ]]
