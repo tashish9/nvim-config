@@ -26,5 +26,5 @@ vim.keymap.set("n", "<C-a>", function() harpoon:list():next() end)
 --     }):find()
 -- end
 --
--- vim.keymap.set("n", "<C-P>", function() toggle_telescope(harpoon:list()) end,
+-- vim.keymap.set("n", "<C-x>", function() toggle_telescope(harpoon:list()) end,
 --     { desc = "Open harpoon window" })

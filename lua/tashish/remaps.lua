@@ -23,6 +23,10 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 vim.keymap.set("n" , "dl" , "d$")
 
 
+vim.keymap.set('n', 'n', 'nzzzv')
+vim.keymap.set('n', 'N', 'Nzzzv')
+
+
 vim.keymap.set("x", "p", [["_dP]])
 
 vim.keymap.set("n" , "<C-d>" , "<C-d>zz");
@@ -46,4 +50,12 @@ function _G.set_terminal_keymaps()
 end
 
 vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
+
+-- Folding on basis of {} in .ts files
+vim.cmd([[
+  augroup custom_typescript_mappings
+    autocmd!
+    autocmd FileType typescript nnoremap <buffer> za zfa}
+  augroup END
+]])
 
