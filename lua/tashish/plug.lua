@@ -28,10 +28,11 @@ vim.cmd [[
     Plug 'rafamadriz/neon'
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'nvim-tree/nvim-web-devicons'
-    Plug 'jiangmiao/auto-pairs'
+    " Plug 'jiangmiao/auto-pairs'
     Plug 'habamax/vim-godot'
     Plug 'klen/nvim-config-local'
     Plug 'ThePrimeagen/harpoon' , {'branch' : 'harpoon2' }
+    Plug 'ThePrimeagen/vim-be-good'
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     call plug#end()
 ]]
